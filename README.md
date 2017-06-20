@@ -1,5 +1,5 @@
 # genotyping
-<h5>Need to fix the internal code according to this</h5>
+<h5>20170620: Need to fix the internal code according to this</h5>
 
 ```
 geno_male<-function(sub){
