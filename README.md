@@ -5,7 +5,8 @@
 
 The script assumes that you have a _hapmap_ file. If you do not have a _hapmap_ file then use [TASSEL](https://www.maizegenetics.net/tassel) to convert your file and save as _hapmap.txt_ file type.
 
-
+To run the script change 'Parent1Name' in _as.character(sub$Parent1Name[[i]]))_ to the name of your female parent and 'Parent2Name' in 
+_as.character(sub$Parent2Name[[i]]))_ to your male parent name.
 
 ```
 geno_male<-function(sub){
