@@ -2,7 +2,10 @@
 <h5>20170620: Need to fix the internal code according to this</h5>
 
 <h5>Importing files</h5>
+
 The script assumes that you have a _hapmap_ file. If you do not have a _hapmap_ file then use [TASSEL](https://www.maizegenetics.net/tassel) to convert your file and save as _hapmap.txt_ file type.
+
+
 
 ```
 geno_male<-function(sub){
