@@ -21,9 +21,9 @@ geno_male<-function(sub){
   
   for (i in 1:ro){
     for (j in 12:cl){
-      if (as.character(sub[i,j])==as.character(sub$ALF3010_135224_1_9_X4[[i]])) {
+      if (as.character(sub[i,j])==as.character(sub$Parent1Name[[i]])) {
         out[i,j]<- as.character("nn")
-      }else if (as.character(sub[i,j])==as.character(sub$CW1010_134725_1_11_X4[[i]])) {
+      }else if (as.character(sub[i,j])==as.character(sub$Parent2Name[[i]])) {
         out[i,j]<- as.character("np")
       }else
         out[i,j]<- as.character("--")
